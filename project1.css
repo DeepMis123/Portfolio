@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    background-color:#080808;
+    background: url('background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: red;
+    width: 100%;
+    height: 100vh;
+    
+}
+/* header ka css */
+#container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    margin: 15px 5px;
+    justify-items: center;
+    padding-left: 3cm;
+    padding-right:2cm
+
+}
+.list{
+    display: flex;
+    column-gap: 1cm;
+    padding-top: 5px;
+
+}
+a{
+    text-decoration: none;
+}
+.logo_img{
+    width: 100px;}
+/* section ka CSS */
+section{
+    margin: 200px 100px 300px ;
+}
+.Section-para{
+    margin-top: 0px;
+    font-size:40px;
+    font-weight:bolder;
+}
+section span{
+    color: rgb(239, 15, 15);
+}
+/* About me */
+.about-me .row{
+    display: flex;
+    padding: 3cm 3cm;
+    background-color: #080808;
+    
+}
+.column1 img{
+    border-radius: 5%;
+    height: 500px;
+    margin: 0cm 2cm
+}
+.column2 h1{
+    font-size: 50px;
+}    
+.column2 p{
+    padding-top: 0.6cm;
+    font-size: small;
+}
+.column2 nav ul{
+    padding-top: 20px;
+    display: flex;
+    column-gap: 50px;
+    
+}
+.column2 nav ul li{
+    cursor: pointer;
+}
+
+/* missing */
+/* missing */
+/* missing */
+
+/* My Services */
+.my-service{
+    background-color: #080808;
+    padding: 1cm 5cm;
+}
+.my-service .heading{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 0.7cm;
+}
+.my-service .row ul{
+    display: flex;
+    column-gap: 1cm;
+    justify-items: center;
+
+}
+.my-service .row li{
+    /* border: 2px solid red; */
+    width: 9cm;
+    padding: 1cm;
+    background-color: rgb(38, 40, 44);
+    border-radius: 5%;
+}
+.my-service .row h3{
+    margin-top: 0.7cm;
+    margin-bottom:0.3cm;
+    font-size: 20px;
+}
+
+.my-service .row li span{
+    font-size: 13px;
+
+}
+
+.my-service h1{
+    font-size: large;
+    font-weight: 700;
+}
+/* my work */
+.my-work{
+    background-color: #080808;
+    padding: 1cm 5cm;
+    /* border: 2px solid red; */
+}
+.my-work h3{
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 0.7cm;
+}
+.my-work .row ul{
+    display: flex;
+    column-gap:1cm;
+    justify-items:center;
+}
+.my-work .row ul img{
+ width: 9cm;
+ border-radius: 5%;
+ }
+ .work-button{
+   
+    background-color: #080808;
+    padding: 10px 40px;
+    margin-left: 42%;
+    margin-top: 1cm;
+    border-color: rgb(240, 23, 59);
+    border-radius: 7%;
+  
+ }
+
+ /* Footor*/
+ .contact_me .container .row{
+    display: flex;
+    background-color: #080808;
+    border: 2px solid rgb(213, 35, 35);
+}
+/* .contact_me .container .row */
+/* .download{
+    color: #0fd852;
+
+} */
+
+
+
+
+
+
